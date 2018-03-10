@@ -15,8 +15,7 @@ Homework2 - class creating and working with Kmers
 1. Open input file, concatenate all lines in one **!!!HUGE!!!** line
 2. Set Kmer sixe and create empty dictionary
 3. scan input line for all possible Kmers
-4. for every new Kmer: add key to dictionary (key - sequence, value - link to class kmer object) +
-  + add position in positions list
+4. for every new Kmer: add key to dictionary (key - sequence, value - link to class kmer object) + add position in positions list
 5. for every already existing Kmer: increase counter + add position in positions list
 6. find most frequent Kmer (analyse created dictionary).
 7. get sequence of most frequent Kmer and list of positions in file
