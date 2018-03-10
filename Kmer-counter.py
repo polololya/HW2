@@ -25,7 +25,7 @@ class Kmer:
         print('Sequence:{}\tPositions in current file:{}'.format(self.sequence, self.positions))
         
         
-with open ('/media/boris/HoundOutlaw/BI/Python/2semester/HW2/seq_y_pestis.fasta','r') as fasta:
+with open ('seq_y_pestis.fasta','r') as fasta:
     seq = ''
     for line in fasta:
         if line[0]== '>':
