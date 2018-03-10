@@ -9,7 +9,7 @@ Homework2 - class creating and working with Kmers
 ### methods for class __Kmer__:
 * Kmer.increase() - increase counter value
 * Kmer.add_position() - add beginning and end positions in list of positions
-* get_positions() - easy-to-read console output with table of positions for specific Kmer
+* Kmer.get_positions() - easy-to-read console output with table of positions for specific Kmer
 
 ### Workflow:
 1. Open input file, concatenate all lines in one **!!!HUGE!!!** line
